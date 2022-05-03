@@ -1,2 +1,4 @@
-# gradient-descent-java
-Implement gradient descent in Java and apply to linear regression
+# Gradient Descent in Java
+In this personal project I implemented gradient descent and normed gradient descent using basic java functions. Gradient descent is a method for finding the minimum of a function by choosing a starting point, and then moving in the direction of the gradient of the function at that point. This method will converge to a local minimum if one exists. The size of the step depends on the norm of the gradient. This can lead to problems if the function contains a very flat local minimum (for example x^<sup>6</sup>). In this situation, normed gradient descent is used, where the step size is chosen independent of the norm of the gradient.
+
+I applied gradient descent to linear regression. I generated some test data around the plane 3x<sub>0</sub> + 2x<sub>1</sub> - 2 (one set of data is exactly on the plane and another has a random noise added). Then I minimized the distance from a plane to all data points.
